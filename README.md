@@ -1,4 +1,4 @@
-![Örnek Görsel](https://github.com/34semih54545/PCsiken/raw/main/İmages/tool.png)
+![Örnek Görsel](https://github.com/34semih54545/PCsiken/blob/master/images/tool.png)
 
 
 Bu toolu çalıştırmak için pythın,git ve coloramanın yüklü olması gerekir.
