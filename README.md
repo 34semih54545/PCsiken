@@ -1,3 +1,6 @@
+![Örnek Görsel](https://github.com/34semih54545/PCsiken/raw/main/İmages/tool.png)
+
+
 Bu toolu çalıştırmak için pythın,git ve coloramanın yüklü olması gerekir.
 
 cmd,powershell vb. termianllerde kurmak için de kurmak için:
