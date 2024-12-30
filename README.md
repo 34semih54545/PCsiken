@@ -32,3 +32,5 @@ git clone https://github.com/34semih54545/PCsiken
 cd PCsiken
 python PCsiken.py
 ```
+
+NOt: Bunlar .bat uzantılı virüs kodlarıdır. Sadece Windowsta çalışırlar!!!
