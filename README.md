@@ -25,7 +25,7 @@ cd PCsiken
 python PCsiken.py
 ```
 
-Dilerseniz komutları tek tek satır olarka yapıştırabilirsiniz. Dilerseniz ise hepsini tek parça oalrak yapıştıabilrisiniz terminale.
+İsterseniz komutları tek tek satır olarka yapıştırabilirsiniz. Dilerseniz ise hepsini tek parça olarak yapıştıabilrisiniz terminale.
 Eğer colorama,Python ve git zaten yüklüyse bütün terminallerde sadece şu kodu girerek çalıştırabilirsiniz:
 ```
 git clone https://github.com/34semih54545/PCsiken
@@ -33,4 +33,5 @@ cd PCsiken
 python PCsiken.py
 ```
 
-NOt: Bunlar .bat uzantılı virüs kodlarıdır. Sadece Windowsta çalışırlar!!!
+NOT:Bu tooldaki virüs kodları cmd komutudur. Not defterine kaydedilip sonradan uzantısı .bat yapılır. Sadece Wİndows ta işe yararlar.
+Tavsiye: Bu tür .bat uzantılı virüslerden etkilenmemek için ve gizlilik için Windowsw yerine Lİnux kullanabilirsiniz.
