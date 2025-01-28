@@ -1611,6 +1611,6 @@ elif x == 39:
 elif x == 40:
     print(Fore.YELLOW + klavyehackleyen)
 elif x == 41:
-    prnt(Fore.YELLOW + klavyemousedevredışı)
+    print(Fore.YELLOW + klavyemousedevredışı)
 else:
     print(Fore.RED + "Yanlış bir değer girdiniz. Lütfen tekrar deneyiniz...")
